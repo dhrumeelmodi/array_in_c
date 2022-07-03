@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+int main()
+{
+    int size;
+    printf("enter the subject wants to store: ");
+    scanf("%d",&size);
+    
+    int marks[size];
+    int i;
+    
+    for(i=0;i<size;i++){
+        
+        printf("enter the marks of %d subjects: ",i+1);
+        scanf("%d",&marks[size]);
+    }
+    
+    for(i=0;i<size;i++){
+        printf("\n");    
+        printf("\t\t\tthe marks of %d subject is: %d ",i+1,marks[size]);
+     
+    }
+    return 0;
+    
+}
